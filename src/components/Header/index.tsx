@@ -30,7 +30,7 @@ export default function Header({
 
       <nav className={styles.nav}>
         {
-          items.map((item) => <HeaderItem item={item} />)
+          items.map((item) => <HeaderItem key={item} item={item} />)
         }
       </nav>
     </header>
