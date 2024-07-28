@@ -1,0 +1,24 @@
+.header {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  font-family: var(--font-mono);
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-context: space-between;
+}
+
+.item {
+  padding: 0px 0px 0px 10px;
+  flex-grow: 0px;
+  align-self: flex-end;
+}
+
+.title {
+  padding: 0px 10px 0px 0px;
+  flex-grow: 0;
+}
